@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_fragment"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="muhammadirfanfahriza.storage.navigationdrawer.view.HomeFragment"
+        android:label="Hymart"
+        tools:layout="@layout/fragment_home"/>
+
+    <activity
+        android:id="@+id/makanminum"
+        android:name="muhammadirfanfahriza.storage.navigationdrawer.MakanMinum"
+        android:label="Makanan"
+        tools:layout="@layout/activity_makan_minum"/>
+
+    <activity
+        android:id="@+id/rumahdapur"
+        android:name="muhammadirfanfahriza.storage.navigationdrawer.RumahDapur"
+        android:label="Rumah"
+        tools:layout="@layout/activity_rumah_dapur"/>
+
+    <activity
+        android:id="@+id/ibuanak"
+        android:name="muhammadirfanfahriza.storage.navigationdrawer.IbuAnak"
+        android:label="Ibu dan Anak"
+        tools:layout="@layout/activity_ibu_anak"/>
+
+    <activity
+        android:id="@+id/sehatcantik"
+        android:name="muhammadirfanfahriza.storage.navigationdrawer.SehatCantik"
+        android:label="Kesehatan"
+        tools:layout="@layout/activity_sehat_cantik"/>
+</navigation>
